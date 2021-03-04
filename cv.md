@@ -29,5 +29,5 @@
           return res.length;
         }
 ```
-**Projects:** Development of a system for monitoring and controlling the parameters of a diesel locomotive (Typescript/Angular)<bre>
+**Projects:** Development of a system for monitoring and controlling the parameters of a diesel locomotive (Typescript/Angular)<br>
 **English Level:** A2+ by EPAM Training Center's test
