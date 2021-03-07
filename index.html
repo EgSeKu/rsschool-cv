@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Curriculum Vitae</title>
+  <link rel="icon" type="image/x-icon" href="images/cd.ico">
+</head>
+
+<body class="body">
+  <div class="cd">
+    <header>
+      <h1>Curriculum Vitae</h1>
+    </header>
+    <main>
+      <section class="top">
+        <section class="mainInfo">
+          <div class="gridHeader">
+            <h4>Main information</h4>
+          </div>
+          <div class="gridBody">
+            <b>Name:</b> Egor Kuzmichev<br>
+            <b>Email address:</b>
+            <ul>
+              <li>kuzmichev_2497@mail.ru</li>
+            </ul>
+            <b>Objective:</b> systematization and consolidation of available frontend development skills, gaining new
+            knowledges<br>
+            <b>Personal qualities:</b>
+            <ul>
+              <li>Diligence</li>
+              <li>Perseverance</li>
+              <li>Conscientiousness</li>
+            </ul>
+          </div>
+        </section>
+        <figure class="photo">
+          <img class="pict" src="images/owl.svg" alt="avatar">
+        </figure>
+      </section>
+      <section class="education">
+        <div class="gridHeader">
+          <h4>Education</h4>
+        </div>
+        <div class="gridBody">
+          <b>Graduations:</b>
+          <ul>
+            <li>Bachelory: Emperor Alexander I St. Peterburg State Transport University, 2016-2020</li>
+            <li>Mastery: Peter the Great St.Petersburg Polytechnic University, 2020 - p.t.</li>
+          </ul>
+          <b>Programming languages:</b>
+          <ul>
+            <li>Studied:
+              <ul>
+                <li>C/C++</li>
+                <li>Java</li>
+                <li>Matlab</li>
+              </ul>
+            </li>
+            <li>Had a little practice:
+              <ul>
+                <li>Javascript</li>
+                <li>Typescipt</li>
+              </ul>
+            </li>
+          </ul>
+          <b>Frameworks:</b> Angular<br>
+          <b>Development tools:</b>
+          <ul>
+            <li>Visual Studio</li>
+            <li>VS Code</li>
+            <li>Intellij Idea</li>
+          </ul>
+          <b>Projects:</b>
+          <ul>
+            <li>Development of a system for monitoring and controlling the parameters of a diesel locomotive
+              (Typescript/Angular)</li>
+          </ul>
+          <b>English Level:</b> A2+ by EPAM Training Center's test
+        </div>
+      </section>
+      <section class="codeExample">
+        <div class="gridHeader">
+          <h4>Code Example</h4>
+        </div>
+        <div class="gridBody">
+          <pre>
+              function shifter(s){
+                let res = [];
+                let shortSymbols = ['H', 'I', 'N', 'O', 'S', 'X', 'Z', 'W' , 'M'];
+                if (s=="")
+                  return 0;
+                let arr = s.split(' ');
+                for(let i = 0;i < arr.length; i++)
+                  for(let j = 0; j <= arr[i].length;j++){
+                    if(j==arr[i].length)
+                      if(res.indexOf(arr[i])==-1)
+                        res.push(arr[i]);
+                    if(shortSymbols.indexOf(arr[i][j])==-1)
+                      break;
+                  }
+                return res.length;
+              }
+          </pre>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <figure class="leftFoot">
+        <a href="https://rs.school/js">
+          <img class="logo" src="images/rs_school_js.svg" alt="RS Logo">
+        </a>
+      </figure>
+      <section class="rightFoot">
+        <a href="https://github.com/EgSeKu">EgSeKu</a>
+        <a>,2021</a>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
