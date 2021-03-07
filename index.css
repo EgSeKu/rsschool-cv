@@ -1,0 +1,123 @@
+.body {
+  background-color: #b1ebca;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 4vh;
+}
+
+.cd {
+  color: #000000;
+  border-radius: 1vh;
+  padding: 1vh;
+}
+
+ul {
+  margin: 0px;
+}
+
+header {
+  width: 50vw;
+  margin-left: 25vw;
+  text-align: center;
+  color: #585858;
+}
+
+/*Основные стили*/
+
+main {
+  width: 50vw;
+  margin-left: 25vw;
+  background-color: #d4eee0;
+  border: 2px solid #004445;
+  display: grid;
+  grid-gap: 0;
+  overflow: none;
+}
+
+.top {
+  display: grid;
+  grid-row: 1;
+  grid-gap: 0;
+  margin: 0px;
+  border-bottom: 2px solid #004445;
+}
+
+.mainInfo {
+  grid-column: 1/6;
+  grid-row: 1;
+  font-size: 3vh;
+  border-right: 2px solid #004445;
+}
+
+.photo {
+  grid-column: 6/10;
+  margin: auto;
+  background-color: #d4eee0;
+  object-position: center;
+}
+
+.pict {
+  max-width: 100%;
+  display: block;
+}
+
+.education {
+  grid-row: 2;
+  width: 50vw;
+  font-size: 3vh;
+  border-bottom: 2px solid #004445;
+}
+
+.codeExample {
+  grid-row: 3;
+  width: 50vw;
+  font-size: 3vh;
+}
+
+.gridHeader {
+  background-color: #53c084;
+  border-radius: 0vh;
+  padding: 1vh;
+  border-bottom: 2px solid #004445;
+}
+
+.gridBody {
+  background-color: #d4eee0;
+  border-radius: 0vh;
+  padding: 1vh;
+}
+
+pre {
+  font-size: 2vh;
+}
+
+/*Стили для footer*/
+
+footer {
+  display: grid;
+  width: 50vw;
+  margin-left: 25vw;
+  grid-gap: 0;
+}
+
+.logo {
+  max-width: 100%;
+  object-fit: cover;
+  width: 25%;
+}
+
+.leftFoot {
+  grid-column: 1/2;
+  grid-row: 1;
+  margin: 0px;
+  /*background-color: #14a75d;*/
+}
+
+.rightFoot {
+  grid-column: 8/9;
+  grid-row: 1;
+  text-align: end;
+  font-size: 2.5vh;
+}
