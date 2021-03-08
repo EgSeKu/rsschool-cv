@@ -14,7 +14,7 @@
       <h1>Curriculum Vitae</h1>
     </header>
     <main>
-      <section class="top">
+      <div class="top">
         <section class="mainInfo">
           <div class="gridHeader">
             <h4>Main information</h4>
@@ -38,7 +38,7 @@
         <figure class="photo">
           <img class="pict" src="images/owl.svg" alt="avatar">
         </figure>
-      </section>
+      </div>
       <section class="education">
         <div class="gridHeader">
           <h4>Education</h4>
@@ -92,8 +92,8 @@
                 if (s=="")
                   return 0;
                 let arr = s.split(' ');
-                for(let i = 0;i < arr.length; i++)
-                  for(let j = 0; j <= arr[i].length;j++){
+                for(let i = 0;i != arr.length; i++)
+                  for(let j = 0; j != arr[i].length - 1;j++){
                     if(j==arr[i].length)
                       if(res.indexOf(arr[i])==-1)
                         res.push(arr[i]);
@@ -112,10 +112,10 @@
           <img class="logo" src="images/rs_school_js.svg" alt="RS Logo">
         </a>
       </figure>
-      <section class="rightFoot">
+      <div class="rightFoot">
         <a href="https://github.com/EgSeKu">EgSeKu</a>
         <a>,2021</a>
-      </section>
+      </div>
     </footer>
   </div>
 </body>
