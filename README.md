@@ -1,3 +1,3 @@
 # rsschool-cv
-https://EgSeKu.github.io/rsschool-cv/cv <br>
-https://EgSeKu.github.io/rsschool-cv/
+CV: https://EgSeKu.github.io/rsschool-cv/cv <br>
+Site page: https://EgSeKu.github.io/rsschool-cv/
